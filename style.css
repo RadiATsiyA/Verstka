@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.first-section {
+    background: url(/img/plan.svg) no-repeat center;
+    background-size: cover;
+    background-color: #1e1d24;
+    padding-top: 350px;
+    height: 55vh;
+}   
+
+.header-title {
+    margin: 0;
+    max-width: 750px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.header-descr {
+    color: #fff;
+    max-width: 670px;
+}
+
+.header {
+    background: #1e1d24;
+}
+
+.header-container {
+    display: flex;
+    height: 85px;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none; 
+    margin: 0;
+    padding: 30px 0;
+}
+
+.header-logo {
+    margin-top: 15px;
+    margin-right: 430px;
+}
+
+.menu-item {
+    text-transform: uppercase;
+    color: rgb(119, 116, 116);
+    text-decoration: none;
+    margin-right: 52px;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 12px;
+    height: 24px;
+}
+
+.second-section {
+    padding-top: 120px;
+    height: 85vh;
+    padding-bottom: 20px;
+}
+
+br {
+    display: inline-block;
+}
+
+.uber-title {
+    display: inline-block;
+    margin: 0;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    max-width: 350px;
+}
+
+.text-part {
+    float: right;
+    color: gray;
+    max-width: 690px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.t4 {
+    margin-bottom: 120px;
+}
+
+
+.akuelle {
+    padding-top: 120px;
+    margin: 0 auto;
+    background: #1e1d24;
+    height: 50vh;
+    padding-bottom: 120px;
+}
+
+.akuelle-title {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    max-width: 350px;
+    color: #fff;
+}
+
+.akuelle-subtitle {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 420px;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.house {
+    margin-top: 80px;
+    border: 8px solid #FFF;
+}
+
+.referen {
+    padding-top: 120px;
+    background: #313037;
+}
+
+.refen-title {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    max-width: 350px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.refen-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.refen-card {
+    border: 8px solid #FFF;
+}
+
+.last {
+    margin-bottom: 120px;
+}
+
+
+
+
+.styx, .styx2, .styx3 {
+    padding-top: 260px;
+}
+
+.person1 {
+    float: right;
+}
+
+.styx-title {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.styx-part {
+    color: gray;
+    max-width: 470px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.posl {
+    margin-bottom: 30px;
+}
+
+.con {
+    margin: 0;
+    color: gray;
+    max-width: 470px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+hr {
+    margin-top: 243px;
+}
+
+.person2 {
+    float: left;
+}
+
+.styx-title2 {
+    margin-left: 800px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.styx-part2 {
+    float: right;
+    color: gray;
+    max-width: 470px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+
+
+
+
+.hr {
+    margin-top: 921px;
+}
+
+
+.person3 {
+    float: right;
+}
+.styx-title3 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.styx-part3 {
+    float: left;
+    color: gray;
+    max-width: 470px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.con3 {
+    margin: 0;
+    color: gray;
+    max-width: 470px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.hr-help {
+    margin-top: 227px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    padding-top: 170px;
+    background: #1e1d24;
+    padding-bottom: 170px   ;
+}
+
+.foot-title {
+    margin: 20px auto;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    max-width: 350px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.f2, .f3, .f4, .f7, .f8, .f12 {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    color: #FFF;
+    margin: 20px auto;
+    margin-left: 800px;
+}
+
+.f12 {
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width:1322px) {
+    .header-title {
+        margin: 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .header-descr {
+        margin-left: 30px;
+        margin-right: 30px;
+        max-width: 670px;
+    }
+}
